@@ -6,6 +6,7 @@ use days::*;
 fn main() -> Result<()> {
     print_day(1, day01::part1, 74711, day01::part2, 209481)?;
     print_day(2, day02::part1, 9241, day02::part2, 14610)?;
+    print_day(3, day03::part1, 7872, day03::part2, 2497)?;
     Ok(())
 }
 
